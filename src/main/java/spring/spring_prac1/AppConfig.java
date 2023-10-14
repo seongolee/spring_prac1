@@ -14,7 +14,6 @@ import spring.spring_prac1.order.OrderServiceImpl;
 
 @Configuration
 public class AppConfig {
-
     @Bean
     public MemberRepository memberRepository() {
         return new MemoryMemberRepository();
